@@ -1,14 +1,14 @@
 # Feb 23 2022
 #
-#	      I have the words.txt file as well as a working letterCount program. What I'm doing now is just typing out what I've done to see if an idea will pop
-#	      into my head. I'm also supposed to have students come for help on a CS I lab but no one's here so I'm doing this.
-#	      Right now I'm ignoring the Segmentation Fault error in wordEff because it's a storage problem idk how to fix since I'm proficient with memory
-#	      allocation. So instead of doing that, I'm trying to think of what would actually define the best word. In my opinion, it would be related to graph
-#	      theory, involving relationships between words based on what letters they have and where they appear from. In my head, I'm picturing that all words
-#	      fall into at least one type of category. I picure it like playing Guess Who, where on your first guess you want to at least split your remaining
-#	      options in half. Characters have different assortments of skin color, gender, hair, eyes, and accessories. Due to characters having some type of
-#	      feature or no feature in these categories, it makes it easier to organize them into groups. A lot of this is just trying to make sense of what's
-#	      in my head, but the graph theory/Guess Who type strategy I believe is my best option.
+#	   I have the words.txt file as well as a working letterCount program. What I'm doing now is just typing out what I've done to see if an idea will pop
+#	   into my head. I'm also supposed to have students come for help on a CS I lab but no one's here so I'm doing this.
+#	   Right now I'm ignoring the Segmentation Fault error in wordEff because it's a storage problem idk how to fix since I'm proficient with memory
+#	   allocation. So instead of doing that, I'm trying to think of what would actually define the best word. In my opinion, it would be related to graph
+#	   theory, involving relationships between words based on what letters they have and where they appear from. In my head, I'm picturing that all words
+#	   fall into at least one type of category. I picure it like playing Guess Who, where on your first guess you want to at least split your remaining
+#	   options in half. Characters have different assortments of skin color, gender, hair, eyes, and accessories. Due to characters having some type of
+#	   feature or no feature in these categories, it makes it easier to organize them into groups. A lot of this is just trying to make sense of what's
+#	   in my head, but the graph theory/Guess Who type strategy I believe is my best option.
 #
 #       There would be 15 relations with X being doesn't contain, O being wrong spot, and $ being correct:
 #
