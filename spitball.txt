@@ -31,5 +31,12 @@
 #       Using these different relationships, I believe we can make either a graph or matrix that can find the best possible word, similar to Sudoku.
 #       I'm just starting to learn graph theory in Discrete II right now but I think watching more videos and doing some practice through a Sudoku
 #       solver, I think I could come up with something for this.
-
+#
+#       Maybe an epiphany, but knowing there are 15 possible relations, the best word would split all words as close to evenly among these 15 groups.
+#       In the best case (12972/15 ceiling) would leave us with 865 possible solutions. I guess I could make an int array[15] to contain how many times
+#       each relation appears and then scoring each word based on the Standard Deviation betweem members of each relation. Guess I don't need Sudoku,
+#       still gonna make a solver eventually.
+# 
+#       My only concern is how much storage this is going to take. I need a [12972*5] 2d char array for each word from words.txt, a [26] char array for the
+#       alphabet, and [15] int array for all 12972 words and potentially more (Currently a total of 259,466 cells for arrays). 
 
