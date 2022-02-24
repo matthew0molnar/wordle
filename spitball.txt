@@ -39,4 +39,27 @@
 # 
 #       My only concern is how much storage this is going to take. I need a [12972*5] 2d char array for each word from words.txt, a [26] char array for the
 #       alphabet, and [15] int array for all 12972 words and potentially more (Currently a total of 259,466 cells for arrays). 
-
+# 
+# Feb 24 2022
+#
+#       Last night it kinda hit me that splitting into 15 different relationships is what needs to be done, however, not all relationships are equal in
+#       value. What I mean by this is that some relationships can be more or less important than others, for example:
+#       
+#               $$$$$ will always be size 1 since this only applies to the guessed word
+#               XXXXX doesn't get much information on the word
+#
+#       I don't have hard proof that relations other than $$$$$ won't be as important, however, it's important to keep this in mind moving forward.
+#
+#       My dumbass just realized there are more than 15 relations since I didn't account for having more than two types of outputs. Missing ones are:
+#
+#       XXXO$
+#       XXOO$
+#       XXO$$
+#       XOOO$
+#       XOO$$
+#       XO$$$
+#
+#       Now I'm going insane since the first set of relations was 15 and this one is 6 yet in the program I only have 20. I counted them and compared
+#       multiple times but can't find a duplicate. I think I'm crazy.
+#
+#       Tq taught me some dynamic memory allocation for 2d arrays and how to fix math.h now really being included. This program should be working soon.
